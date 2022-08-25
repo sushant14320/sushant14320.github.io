@@ -27,7 +27,7 @@ let newRender = (unkonown)=> {
         let checkbox = document.createElement('input')
         let br = document.createElement('br')
 
-        anchor.setAttribute('href',`edit.html#${uuid}`)
+        //anchor.setAttribute('href',`edit.html#${uuid}`)
         //adding css classes
         button.setAttribute('id','btn-delete')
         div.setAttribute('id','todo-div')
@@ -51,8 +51,8 @@ let newRender = (unkonown)=> {
         //     deleteTodo(uuid)
         // })
 
-       // npara.innerHTML = `${ele.title}`
-        anchor.innerHTML = `${ele.title}`
+        npara.innerHTML = `${ele.title}`
+        //anchor.innerHTML = `${ele.title}`
         button.textContent = 'X'
         checkbox.setAttribute('type','checkbox')
         document.querySelector('#notes-render').appendChild(div)
@@ -60,7 +60,7 @@ let newRender = (unkonown)=> {
         //displaying HTML element under "div" 
         div.appendChild(br)
         div.appendChild(checkbox)
-       // div.appendChild(npara)
+        div.appendChild(npara)
         div.appendChild(anchor)
         div.appendChild(button)
         
