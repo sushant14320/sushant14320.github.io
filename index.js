@@ -61,7 +61,7 @@ let newRender = (unkonown)=> {
         div.appendChild(br)
         div.appendChild(checkbox)
         div.appendChild(npara)
-        div.appendChild(anchor)
+        //div.appendChild(anchor)
         div.appendChild(button)
         
     })
