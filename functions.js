@@ -18,9 +18,9 @@ let addTodo = function (Todos){
         stringTodo = JSON.stringify(Todos)
         localStorage.setItem('Todos',stringTodo)
       
-        //newRender(unkonown)
+        newRender(unkonown)
         
-        location.assign(`edit.html#${id}`)
+        //location.assign(`edit.html#${id}`)
 }
 
 
